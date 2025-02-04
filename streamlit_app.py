@@ -14,7 +14,7 @@ def main():
     while True:
         # Get the latest location from the server
         try:
-            response = requests.get('http://YOUR_SERVER_URL:5000/get_location')
+            response = requests.get('http://10.233.231.106:5000/get_location')
             location = response.json()
 
             # Create a map centered at the current location
